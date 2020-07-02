@@ -1,0 +1,714 @@
+/** tmodal style seet **********************************
+ver : 1.0.0
+date: 2017/06 - 
+********************************************************/
+
+.tmodal_form_content_label,
+.tmodal_security{
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;    
+}
+
+.tmodal_form_content_s_label{
+    font-size: 12px;
+    -webkit-text-size-adjust: 100%;    
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_title{
+    margin: 0;
+    line-height: 1.42857143;
+}
+
+.hangout_img_20170525{
+    box-shadow:5px 5px 10px rgba(1, 53, 116, 0.6);
+    border:1px solid #FFFFFF;
+}
+
+.validate_error_20170525{
+    background-color:#F09199;
+}
+
+.tmodal_form_content_group:before,
+.tmodal_footer:before{
+    display: table;
+    content: " ";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_form_content_group:after,
+.tmodal_footer:after{
+    display: table;
+    content: " ";
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*-------------- ------tmodal PC css ------------------*/
+@media screen and (min-width: 481px) { 
+
+/** tmodal backdrop **/
+#tmodal_backdrop{
+    display: none;
+}
+
+.tmodal_bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: .5;    
+    padding-bottom: 30px;
+    height: 100vh;
+}
+
+
+/** tmodal form set start **/
+#tmodal_form{
+    display: none;
+}
+
+.tmodal_dialog{
+    max-width: 480px;
+    width: 90%;
+    margin: 30px auto;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.tmodal_content{
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+/** tmodal header **/
+.tmodal_header{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_img{
+    vertical-align: middle;
+    border: 0;
+    padding: 10px;
+    width: 66px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_header_close{
+    -webkit-appearance: none;
+    padding: 0;
+    margin-top: -2px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;    
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;    
+}
+
+.tmodal_header h4{
+}
+
+.tmodal_logolist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/** tmodal form content **/
+.tmodal_form_content,
+.tmodal_form_content_group{
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/** tmodal form content label **/
+.tmodal_form_content_label{
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.tmodal_form_content_inline{
+    float: left;
+    width: 65%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.75em;
+}
+
+.tmodal_form_content_inline_s{
+    float: left;
+    width: 65%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.tmodal_form_content_inline_s select{
+    width: 85%!important;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.tmodal_control{
+    display: block;
+    width: 100% !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tmodal_cvv{
+    display: block;
+    width: 44% !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tmodal_smart_date{
+    width: 45% !important;
+}
+
+.tmodal_security{
+    line-height: 30px;
+}
+
+.tmodal_card_name{
+    width: 120px;
+}
+
+.tmodal_card_times{
+    width: 35%;    
+}
+
+
+/** tmodal footer **/
+.tmodal_footer{
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+/** tmodal alert **/
+.tmodal_alert{
+    color: red ;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+    background-image: -o-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcf8e3), to(#f8efc0));
+    background-image: linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+
+/** tmodal btn **/
+.tmodal_btn{
+    width: 49%;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #d9534f;
+    border-color: #d43f3a;    
+    background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+    background-image: -o-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));
+    background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #b92c28;
+}
+
+
+.tmodal_btn:hover,
+.tmodal_btn:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px;
+}
+
+
+.tmodal_btn:active,
+.tmodal_btn.active {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+}
+
+
+/** tmodal error **/
+.valisate_error{
+    background-color: #F09199;    
+}
+
+
+/** security code **/
+.tmodal_security{
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/    
+}
+
+#tmodal_security_code_img{
+    display: none;
+}
+
+#tmodal_security_code_img img{
+    width: 120%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2000;
+    top: -250px;
+    left: -30%;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    background-color: #FFF;
+}
+
+
+}
+
+/*----------------tmodal Smart Phone css -----------------*/
+@media screen and (max-width: 480px){
+
+/** tmodal backdrop **/
+#tmodal_backdrop{
+    display: none;
+}
+
+.tmodal_bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: .5;    
+    padding-bottom: 30px;
+    height: 100vh;
+}
+
+
+/** tmodal form set start **/
+#tmodal_form{
+    display: none;
+}
+
+.tmodal_dialog{
+    max-width: 480px;
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tmodal_content{
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/** tmodal header **/
+.tmodal_header{
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_img{
+    vertical-align: middle;
+    border: 0;
+    padding: 10px;
+    width: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tmodal_header_close{
+    -webkit-appearance: none;
+    padding: 0;
+    margin-top: -2px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;    
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;    
+}
+
+.tmodal_header h4{
+}
+
+.tmodal_logolist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/** tmodal form content **/
+.tmodal_form_content,
+.tmodal_form_content_group{
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/** tmodal form content label **/
+.tmodal_form_content_label{
+    padding-top: 3px;
+    margin-bottom: 0;
+    text-align: right;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.tmodal_form_content_inline{
+    float: left;
+    width: 65%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.75em;
+}
+
+.tmodal_form_content_inline_s{
+    float: left;
+    width: 65%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.tmodal_form_content_inline_s select{
+    width: 85%!important;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.tmodal_control{
+    display: block;
+    width: 100% !important;
+    height: inherit;
+    padding: 0px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tmodal_cvv{
+    display: block;
+    width: 44% !important;
+    height: inherit;
+    padding: 0px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tmodal_smart_date{
+    width: 45% !important;
+}
+
+.tmodal_security{
+}
+
+.tmodal_card_name{
+    width: 120px;
+}
+
+.tmodal_card_times{
+    width: 35%;    
+}
+
+
+/** tmodal footer **/
+.tmodal_footer{
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+/** tmodal alert **/
+.tmodal_alert{
+    color: red ;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+    background-image: -o-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcf8e3), to(#f8efc0));
+    background-image: linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+
+/** tmodal btn **/
+.tmodal_btn{
+    width: 49%;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #d9534f;
+    border-color: #d43f3a;    
+    background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+    background-image: -o-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));
+    background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #b92c28;
+}
+
+
+.tmodal_btn:hover,
+.tmodal_btn:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px;
+}
+
+
+.tmodal_btn:active,
+.tmodal_btn.active {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+}
+
+
+/** tmodal error **/
+.valisate_error{
+    background-color: #F09199;    
+}
+
+
+/** security code **/
+.tmodal_security{
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/    
+}
+
+#tmodal_security_code_img{
+    display: none;
+}
+
+#tmodal_security_code_img img{
+    width: 120%;
+    margin: 5px auto;
+    position: absolute;
+    z-index: 2000;
+    top: -250px;
+    left: -30%;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    background-color: #FFF;
+}
+    
+}

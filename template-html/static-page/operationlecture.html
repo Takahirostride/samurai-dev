@@ -1,0 +1,92 @@
+
+<!-- saved from url=(0079)https://samurai-match.jp/manuals/registration_policy_menu/operationlecture.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<!--mantis 11787-->
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+		<!--<meta name="viewport" content="width=device-width,user-scalable=no" />-->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="start-page-name" content="operationlecture.html">
+
+		<title>施策登録メニュー（士業）</title>
+		<!--compress css to res/all-min.css<-->
+		<style>
+			.progress-bar-indicator::before {content: "";background-color: #FD9A01;display: block;position: relative;width: 0px;height: 3px;}
+			.progress-bar-indicator::after {content: "";background-color: #FD9A01;-webkit-border-radius: 10px;-moz-border-radius: 10px;-ms-border-radius: 10px;border-radius: 10px;display: block;width: 10px;height: 10px;position: absolute;top: -3px;right: 0px;}
+		</style>
+		<link rel="stylesheet" type="text/css" href="./operationlecture_files/all-min.css">
+		<!--compress css to res/all-min.css<-->
+	<script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/popup.js" async=""></script><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/tat_popup.js" async=""></script></head>
+	<body id="html5body" onload="LoadSize()" onresize="Resize()" src="./">
+		<div class="errorDiv" id="errorMsg"></div>
+		<div id="dojoBody" style="width: 1012.61px; height: 569.315px;">
+			<div class="display_area main" id="main" style="width: 1012.61px; height: 569.315px; display: block;">
+				<canvas id="lessonCanvas" width="1012" height="569" style="cursor: default;">Canvas not supported</canvas>
+				<div id="editsDiv" style="position: absolute; display: none;">
+					<input id="editBox" type="text" style="width: 100%;height: 100%;">
+				</div>
+				<div id="reportContent" style="width: 1012.61px; height: 569.315px;"></div>
+				<div id="canvasloader-container" class="wrapper"><div id="canvasLoader" style="display: none;"><canvas width="33" height="33"></canvas><canvas width="33" height="33" style="display: none;"></canvas></div></div>
+				<!-- controlbar -->
+        <div class="controlbar-position" id="control_bar_box" style="display: none;">
+				  <div class="controlbar" id="controlbar">
+					<div class="player-button icon-left-open" id="controlbar_hide" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-stop" id="controlbar_tostop" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-to-start" id="controlbar_tofirststep" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-fast-bw" id="controlbar_topreviousstep" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-pause" id="controlbar_playorpause" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-fast-fw" id="controlbar_tonextstep" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-to-end" id="controlbar_tolaststep" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-volume-up" id="controlbar_volumeuporoff" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-info" id="cb_curindex">1 / 2</div>
+					<div class="progress-bar" id="controlbar_progressbarbox">
+					  <div class="progress-bar-indicator" id="controlbar_progressbar" style="cursor: pointer;"></div>
+					  <div class="cb_curtime" id="cb_curtime">00:02 / 00:02</div>
+					</div>
+					<div class="player-button icon-reply-1" id="controlbar_goback" style="opacity: 1; cursor: pointer;"></div>
+					<div class="player-button icon-scale" id="controlbar_adaptive" style="opacity: 1; cursor: pointer;"></div>
+				  </div>
+				</div>
+				<div class="player-open" id="controlbar_show" style="display: block;"></div>
+				<!-- Player Controler End >-->
+				<!-- The end of the frame -->
+				<div class="endframe" id="endframe" style="display: none;">
+					<div class="end_button btn_refresh icon-refresh" id="ef_refresh" style="font-size: 81.0088px; margin-top: 223.901px;"></div>
+					<div class="end_button btn_return icon-reply-1 btn_disabled" id="ef_return" style="font-size: 81.0088px; margin-top: 223.901px;"></div>
+				</div>
+				<!-- The end of the frame -->
+			</div>
+			<!-- Loading................................................................ -->
+			<div class="index-progress-bar blue" id="index-progress-bar" style="display: none;"> 
+				<span id="index-progress-p" style="width: 0%;"></span>
+			</div>
+			<!-- modePage......................................................... -->
+			<div class="display_area modes" id="modePage" style="width: 1012.61px; height: 569.315px; display: none;">
+				<a class="mode_btn mode_btn_auto magictime indexicon-auto" id="btn-mode-auto" style="display: none; font-size: 121.513px; top: 69.9228px; height: 151.891px;"></a>
+				<a class="mode_btn mode_btn_lecture magictime indexicon-lecture" id="btn-mode-lecture" style="font-size: 121.513px; top: 69.9228px; height: 151.891px;"></a>
+				<a class="mode_btn mode_btn_exercise magictime indexicon-exercise" id="btn-mode-exercise" style="display: none; font-size: 121.513px; top: 69.9228px; height: 151.891px;"></a>
+				<a class="mode_btn mode_btn_examination magictime indexicon-examination" id="btn-mode-examination" style="display: none; font-size: 121.513px; top: 69.9228px; height: 151.891px;"></a>
+				<div class="mode_btn_name mode_btn_name_auto" id="btn_name_auto" style="display: none; font-size: 20.2522px; top: 238.894px;">オートデモ</div>
+				<div class="mode_btn_name mode_btn_name_lecture" id="btn_name_lecture" style="font-size: 20.2522px; top: 238.894px;">レクチャー</div>
+				<div class="mode_btn_name mode_btn_name_exercise" id="btn_name_exercise" style="display: none; font-size: 20.2522px; top: 238.894px;">プリテスト</div>
+				<div class="mode_btn_name mode_btn_name_examination" id="btn_name_examination" style="display: none; font-size: 20.2522px; top: 238.894px;">エクササイズ</div>
+				<div class="lesson_info" id="Contents">
+					<ul>
+						<li id="modepage_lessonName"><div class="lesson_info_item leftinfo" style="font-size: 20.2522px;">レッスン名</div><div class="lesson_info_item rightinfo" style="font-size: 20.2522px;">施策登録メニュー（士業）</div></li>
+						<li id="modepage_testDate"><div class="lesson_info_item leftinfo" style="font-size: 20.2522px;">日付</div><div class="lesson_info_item rightinfo" style="font-size: 20.2522px;">Friday,&nbsp;May 11,&nbsp;2018</div></li>
+						<li id="modepage_acceptLine"><div class="lesson_info_item leftinfo" style="font-size: 20.2522px;">合格ライン</div><div class="lesson_info_item rightinfo" style="font-size: 20.2522px;">0</div></li>
+					</ul>
+				</div>
+			</div>
+			<!-- modePage......................................................... -->
+
+			<div class="display_area iosplay icon-play" id="iosplay"></div>
+		</div>
+		<!--parameter-->
+		<script src="./operationlecture_files/data.js"></script>
+		<script src="./operationlecture_files/language.js"></script>
+		<!--compress js to dojo/all-min.js<-->
+		<script src="./operationlecture_files/all-min.js"></script>
+		<!--compress js to dojo/all-min.js>-->
+	
+</body></html>

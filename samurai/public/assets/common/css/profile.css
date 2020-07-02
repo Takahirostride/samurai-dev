@@ -1,0 +1,14 @@
+#submit-avatar {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.av-avatar {
+	cursor: pointer;
+}
+#fileval {
+	cursor: pointer;
+}
+input[type=file].mypage-file-avatar {
+	display: none;
+}

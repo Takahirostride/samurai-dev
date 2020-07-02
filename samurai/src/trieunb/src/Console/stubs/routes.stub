@@ -1,0 +1,7 @@
+<?php
+
+Route::group(['module' => 'DummyUCtitle', 'prefix' => 'DummyPrefix', 'namespace' => 'DummyNamespace\Controllers'], function() {
+
+    Route::get('/', 'DummyUCtitleController@index');
+
+});

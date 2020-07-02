@@ -1,0 +1,26 @@
+.land-image {
+    margin-left: 450px;
+}
+.abount-samurai {
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+p.sb-heading {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+p.sb-desc {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
+}
+p.sb-heading1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1440px) {
+    .land-image {
+        margin-left: 200px;
+    }
+}

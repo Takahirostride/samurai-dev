@@ -1,0 +1,106 @@
+@font-face {
+    font-family: KozGoPr6N-R;
+    src: url(./fonts/ KozGoPr6N-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: KozGoPr6N-H;
+    src: url(./fonts/ KozGoPr6N-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: HiraMinPro;
+    src: url(./fonts/HiraMinPro-W3.otf) format("opentype");
+}
+
+@font-face {
+    font-family: myriad-r;
+    src: url(./fonts/MYRIADPROREGULAR.woff) format("woff"),url(../fonts/MYRIADPROREGULAR.ttf)
+}
+body {
+	font-family: KozGoPr6N-R;
+	font-style: 14px;
+	line-height: 1.5;
+	text-align: left;
+	display: table;
+	width: 100%;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+	background-image: initial;
+}
+.content {
+    margin-top: 30px;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.ng-scope h6 {
+	margin-bottom: 0px;
+}
+.font11 {
+	font-size: 11px;
+}
+.font12 {
+	font-size: 11px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font15 {
+    font-size: 15px;
+} 
+.font16 {
+	font-size: 16px;
+}
+.font17 {
+    font-size: 17px;
+} 
+.font18 {
+    font-size: 18px;
+} 
+.font19 {
+    font-size: 19px;
+} 
+.font20 {
+    font-size: 20px;
+} 
+.font21 {
+    font-size: 21px;
+} 
+.font22 {
+    font-size: 21px;
+}   
+@media (min-width: 1200px) {
+	.container {
+		width: 1330px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 1330px;
+	}
+}
+@media (min-width: 769px) {
+	.container {
+		width: 1330px;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	#wrapper {
+	    min-width: initial!important;
+	    width: 100%;
+	}
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}

@@ -1,0 +1,210 @@
+a {
+	color: #2c82da;	
+}
+a:hover {
+	color: inherit;	
+}
+.bg-color {
+	background: #2c82da;
+	color: #fff;
+}
+.text-color {
+	color: #0f7cc9;
+}
+
+/*sidebar*/
+.div-style-blue {
+    background-color: #edf6fb;
+    border: 1px solid #b1d6df;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+
+h3.ng-binding {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.imagecenter {
+    text-align: center;
+    vertical-align: middle;
+    display: inherit;
+    margin: auto;
+    width:95px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.sidebar-btn {
+    width: 100%;
+    border: 1px solid #bebebe;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 5px 0px;
+}
+.btn-grad {
+    background: -webkit-linear-gradient(#fcfcfc, #f3f3f3);
+    background: -o-linear-gradient(#fcfcfc, #f3f3f3);
+    background: -moz-linear-gradient(#fcfcfc, #f3f3f3);
+    background: linear-gradient(#fcfcfc, #f3f3f3);
+    border: 1px solid #bebebe;
+}
+.btn-grad:hover, .btn.btn-grad.active {
+    background: -webkit-linear-gradient(#fcfcfc, #2574b9);
+    background: -o-linear-gradient(#fcfcfc, #2574b9);
+    background: -moz-linear-gradient(#fcfcfc, #2574b9);
+    background: linear-gradient(#fcfcfc, #2574b9);
+    border: 1px solid #bebebe;
+}
+.btn.btn-grad.active {
+    background: -webkit-linear-gradient(#fcfcfc, #2574b9)!important;
+    background: -o-linear-gradient(#fcfcfc, #2574b9)!important;
+    background: -moz-linear-gradient(#fcfcfc, #2574b9)!important;
+    background: linear-gradient(#fcfcfc, #2574b9)!important;
+    border: 1px solid #bebebe;
+}
+
+.div-style-blue {
+	background-color: #edf6fb;
+	border: 1px solid #b1d6df;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-style-blue1 {
+	background-color: #f1f6fb;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-style-blue2 {
+	background-color: #dce9f6;
+	border: 1px solid #b1d6df;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-style-blue3 {
+  background-color: #edf6fb;
+  border: 1px solid #b1d6df;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  height: 45px;
+
+}
+
+.div-style-white {
+	background-color: #ffffff;
+	border: 1px solid #d6d6d6;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-question {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0px;
+    border: 1px solid #bebebe;
+    border-bottom: 0px;
+  
+}
+.div-style-grey {
+	background-color: #fafafa;
+	border: 1px solid #d6d6d6;
+	padding-left:10px;
+  padding-right:10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-style-grey2 {
+	background-color: #ffffff;
+	padding-left:10px;
+  padding-right:10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-style-green {
+	background-color: #f5fdf0;
+	border: 1px solid #bcdb94;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-style-yellow {
+	background-color: #fffff8;
+	border: 1px solid #d6d6d6;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.div-style-yellow2 {
+  background-color: #f5ecdf;
+  margin-bottom: 10px;
+  border: 1px solid rgb(99, 148, 232);
+  padding: 10px 20px 0px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+
+.div-style-yellow1 {
+  background-color: #fffef9;
+	border: 1px solid #d6d6d6;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-style-light-brown {
+  background-color: #fbe4e4;
+  border: solid #d6d6d6;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+p.text-demo {
+    line-height: 130px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.progress {
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 10px;
+    font-size: .75rem;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.left-border {
+    border-left: 5px solid #0f7cc9;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: bold;
+    margin: 25px 0px;
+    display: block;
+}

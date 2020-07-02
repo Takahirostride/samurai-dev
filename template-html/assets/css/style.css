@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "kozuka-gothic-pr6n-el";
+  src: url("assets/fonts/kozuka-gothic-pr6n-el.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+#wrapper {
+	margin: 0 auto;
+}
+body {
+	font-family: '小塚ゴシック Pr6N','Kozuka Gothic Pr6N',sans-serif;
+}
+a {
+	cursor: pointer;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*header*/
+header {
+	padding: 30px 0px 10px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.logo span {
+	font-size: 28px;
+	font-weight: bold;
+}
+.nav-link {
+	color: #000;
+	font-weight: bold;
+}
+.nav-link:hover, .nav-link:active {
+	background: #ddd;
+	color: #000;
+}
+.nav a.nav-link i {
+	color:#4b8dcd; 
+	font-size: 28px;
+}
+.nav-pills a.nav-link {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background: #ddd;
+}
+.dropdown-toggle::after {
+	color: #4b8dcd;
+}
+.nav ul.dropdown-menu.notify {
+	min-width: 300px;
+	transform: inherit !important;
+	top: 44px !important;
+	left: auto !important;
+	right: 0 !important;
+}
+.nav ul.dropdown-menu {
+	transform: inherit !important;
+	top: 44px !important;
+	left: auto !important;
+	right: 0 !important;
+}
+.dropdown-menu[x-placement^="bottom"] {
+	border-radius: 0;
+}
+#wrapper .navbar-default {
+	border: none;
+	background: inherit;
+}
+h1 a.navbar-brand {
+	height: auto;
+	width: 239px;
+	padding: 0;
+}
+.navbar-ex1-collapse ul.nav {
+	padding: 25px 0;
+}
+nav.navbar {
+	margin-bottom: 0;
+}
+h1.site-title {
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #333;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background: #eee;
+}
+.nav .nav-item a {
+	font-size: 16px;
+}
+.navbar .container-fluid {
+	padding-right: 0;
+}
+.navbar .navbar-collapse {
+	padding-right: 0;
+}
+.nav>li>a.btn-primary:focus, .nav>li>a.btn-primary:hover {
+	background-color: #286090;
+}
+.nav>li>a.btn-warning:focus, .nav>li>a.btn-warning:hover {
+	background-color: #ec971f;
+}
+.page-fullwidth {
+	width: 100%;
+}
+.page-fullwidth .jumbotron {
+	height: 437px;
+}
+.float-right {
+	float: right;
+}
+
+/*footer*/
+footer {
+	padding: 40px 0px;
+}
+footer, footer a {
+	font-size: 12px;
+	color: #fff;
+}
+ul.link-list {
+	padding-left: 18px;
+}
+p.title_list {
+	font-weight: bold;
+}
+
+p.title_list i.fa {
+	margin-right: 6px;
+}
+p.copyright.text-center {
+	margin-top: 30px;
+	border-top: 1px solid #00000038;
+	padding: 30px 0px 0px;
+}
+.no-mrg-top {
+    margin-top: 0;
+}
+div.land-top a.btn {
+	margin-right: 20px;
+	text-align: center;
+	font-size: 23px;
+	width: 180px;
+	height: 55px;
+}
+

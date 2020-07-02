@@ -1,0 +1,4 @@
+.br-theme-fontawesome-stars-o .br-widget a.br-selected:after,
+.br-theme-fontawesome-stars-o .br-widget a.br-fractional:after {
+	color: #EDB867;
+}

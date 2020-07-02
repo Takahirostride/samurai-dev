@@ -1,0 +1,32 @@
+<?php 
+    if(!isset($errors)&& !session('status')&& !session('error')){
+        return false;
+    }
+ ?>
+<section class="bl-notify">
+    <div class="inner-container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-8">
+                @if(session('status'))
+                    <div class="alert alert-info alert-dismissible">
+                    <p>{{ session('status') }}</p>                
+                    </div>
+                @endif
+                @if(session('error'))
+                    <div class="alert alert-danger alert-dismissible">
+                    <p>{{ session('error') }}</p>                
+                    </div>
+                @endif
+                @if(isset($errors) && count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif                
+            </div>
+        </div>
+    </div>
+</section>

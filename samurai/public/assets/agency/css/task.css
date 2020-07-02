@@ -1,0 +1,32 @@
+.datepicker.datepicker-inline tr td {
+			padding: 5px 13px;
+		}
+		.cb-checkbox {
+		    visibility: hidden;
+		    position: absolute;
+		}
+
+		.no-hover.btn-outline-primary:hover {
+		  color: #0275d8;
+		  background-color: transparent;
+		  border-color: #0275d8;
+		}
+		.btn-ncheckbox {
+			background: #FFF;
+			border: 1px solid #8ccef5;
+			width: 100%;
+		}
+		.checkbox-btn .row {
+			margin-bottom: 10px;
+		}
+		table.pdtdbold.work-table tr td {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		form .col-sm-3>span.shead {
+			display: block;
+			padding: 7px 0;
+		}
+		.no-hidden {
+			display: none;
+		}

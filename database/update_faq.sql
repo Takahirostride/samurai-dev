@@ -1,0 +1,6 @@
+ALTER TABLE faq
+ADD COLUMN `name` VARCHAR(50)  NULL AFTER `complete`,
+ADD COLUMN `name2` VARCHAR(50)  NULL AFTER `complete`,
+ADD COLUMN `phone` VARCHAR(20)  NULL AFTER `complete`,
+ADD COLUMN `email` VARCHAR(50) NULL AFTER `complete`,
+ADD COLUMN `type` VARCHAR(50) NULL AFTER `complete`;

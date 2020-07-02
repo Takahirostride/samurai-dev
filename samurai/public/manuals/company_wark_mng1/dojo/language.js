@@ -1,0 +1,7 @@
+/*
+ * Copyright (C) 2014 Tenda,Inc.All rights reserved.
+ */
+
+
+var Lang = '{"modePage":{"mode0":"オートデモ","mode1":"レクチャー","mode2":"プリテスト","mode3":"エクササイズ"},"media":{"errorV":"動画の再生にエラーが発生しました","errorA":"音声の再生にエラーが発生しました"},"msg":{"errorHtml5":"お使いのブラウザは、HTML5をサポートしていません。ページの内容を表示できません。","ok":"OK","cancel":"キャンセル","wrong":"不正解です。_newLine_Helpを表示しますか?","timeout":"あなたは制限時間内にレッスンを終了することができませんでした。","goBackToMode2":"あなたはこのステップで_n_回操作ミスをしました。オペレーションレクチャーに戻って再度トレーニングを行いますか？","inputTextMultiAnswers":"下記文字列を入力してください。","inputTextOr":"または、","inputTextFrom":"以上","inputTextTo":"以下","inputTextIgnoreCase":"下記文字列を入力して下さい。（大文字・小文字区別なし）","inputTextTextCount":"下記文字数を入力して下さい。","inputTextWildcard":"下記文字列を入力して下さい。（*は任意文字）","pressKey":"キーを押す：","pressButton":"ボタンを押下してください："},"report":{"sendReport":"レポート提出","retest":"再テスト","returnIndex":"INDEXに戻る","lessonName":"レッスン名","author":"作成者","testDate":"日付","operateTime":"実施時間","questionNum":"設問数","correctNum":"正解数","incorrectNum":"不正解数","acceptLine":"合格ライン","score":"得点","judgement":"判定","detail":"詳細","stepID":"ステップID","tryingNum":"試行数","perJudgement":"判定","correct":"正解","incorrect":"不正解","timeout":"時間切れ","passed":"合格","failed":"不合格","point":"点","info_fail":"レポート登録は失敗しました。もう一度登録して下さい。","info_failInvalid":"レポートが提出できません。","info_cannotentry":"すでに合格しているコースの為、レポート登録は出来ません。","info_scormresult":"これでレッスンは終了です。<br>トータルステップ : %stepCount%,<br>-不正解数 : %incorrectCount%<br>正解率 : %correctRate%<br>","incorrect_stepnum":"不正解だったステップ番号 : ","info_completion":"これでレッスンは終了します。"}}';
+var lang_data = JSON.parse(Lang);
